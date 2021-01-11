@@ -5,7 +5,7 @@ Syllable estimation for Nim, based on [prosegrinder/python-syllables](https://gi
 `nimble install syllables`
 
 ## Usage
-Syllables only has a single procedure: `estimate(word: string): int`
+Syllables has only a single procedure: `estimate(word: string): int`
 ```nim
 doAssert estimate("pneumonoultramicroscopicsilicovolcacoconiosis") == 17
 doAssert estimate("Hi") == 1
